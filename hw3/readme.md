@@ -2,6 +2,12 @@
 
 ## [Описание задания](hw3.md)
 ## [Манифесты](k8s_manifests)
+
+:exclamation: в deployment прописан образ для архитектуры
+**`linux/arm64 : prizzzrak777/hw3_docker_arm:latest`**
+можно поменять на аналогичный для
+**`linux/amd64 : prizzzrak777/hw3_docker:latest`**
+
 ### Применить
 ```bash
  kubectl create namespace smv
