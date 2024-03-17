@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "74efde63-1a85-46e5-b9d8-a4f3bd531041",
+		"name": "hw3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33661808",
+		"_collection_link": "https://www.postman.com/aerospace-architect-46529847/workspace/otus-msa/collection/33661808-74efde63-1a85-46e5-b9d8-a4f3bd531041?action=share&source=collection_link&creator=33661808"
+	},
+	"item": [
+		{
+			"name": "http://arch.homework/otusapp/smv/health/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://arch.homework/otusapp/smv/health/",
+					"protocol": "http",
+					"host": [
+						"arch",
+						"homework"
+					],
+					"path": [
+						"otusapp",
+						"smv",
+						"health",
+						""
+					]
+				},
+				"description": "\n    \n# GET /otusapp/smv/health/\n\nThis endpoint is used to retrieve the health status of the \"otusapp\" service.\n\n### Response\n- Status: 200\n- Content-Type: text/plain\n\nExample response body:\n```\n{\"status\":\"\"}\n```\n\n"
+			},
+			"response": [
+				{
+					"name": "http://arch.homework/otusapp/smv/health/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://arch.homework/otusapp/smv/health/",
+							"protocol": "http",
+							"host": [
+								"arch",
+								"homework"
+							],
+							"path": [
+								"otusapp",
+								"smv",
+								"health",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 17 Mar 2024 00:43:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "16"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\"status\": \"OK\"}"
+				}
+			]
+		},
+		{
+			"name": "http://arch.homework/health/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://arch.homework/health/",
+					"protocol": "http",
+					"host": [
+						"arch",
+						"homework"
+					],
+					"path": [
+						"health",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://arch.homework/health/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://arch.homework/health/",
+							"protocol": "http",
+							"host": [
+								"arch",
+								"homework"
+							],
+							"path": [
+								"health",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 17 Mar 2024 00:44:22 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "16"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\"status\": \"OK\"}"
+				}
+			]
+		}
+	]
+}

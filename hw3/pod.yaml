@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hw3-pod
+  labels:
+    app: hw3-pod
+spec:
+  containers:
+    - name: hw3-pod
+      image: prizzzrak777/hw3_docker_arm:latest
+      ports:
+        - containerPort: 8000
